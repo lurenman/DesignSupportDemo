@@ -7,98 +7,107 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context="com.example.administrator.designsupportdemo.MainActivity">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:background="@color/colorPrimary"
-            android:layout_height="61dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="DesignSupportDemo"
-                android:textSize="18sp"
-                android:textColor="@color/white"
-                />
-
-        </LinearLayout>
+        android:layout_height="61dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
 
         <TextView
-            android:id="@+id/tv_NavigationView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="NavigationView展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tv_DrawerLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="DrawerLayout展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-        <TextView
-            android:id="@+id/tv_FloatingAction"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="FloatingAction+Snackbar展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-        <TextView
-            android:id="@+id/tv_CoordinatorLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="CoordinatorLayout及控件的展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tv_collapingToolbarLayout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="collapingToolbarLayout的展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tv_fangzhihu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="仿知乎的展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp"
-            />
-        <TextView
-            android:id="@+id/tv_StaggeredGrid"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="StaggeredGrid的展示"
-            android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
-        <TextView
-            android:id="@+id/tv_bottomsheet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="bottomsheet的展示"
-            android:textColor="@color/colorPrimary"
+            android:text="DesignSupportDemo"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
     </LinearLayout>
-</ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_NavigationView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="NavigationView展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_DrawerLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="DrawerLayout展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_FloatingAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="FloatingAction+Snackbar展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_CoordinatorLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="CoordinatorLayout及控件的展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_collapingToolbarLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="collapingToolbarLayout的展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_fangzhihu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="仿知乎的展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_StaggeredGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="StaggeredGrid的展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_bottomsheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="bottomsheet的展示"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
